@@ -1,10 +1,12 @@
 # Welcome to Vivid AI Service
 
 ## Why?
-Integrate best of AI frameworks available today. So that we can make use of such technologies within your application that could be written in a different web app stacks.
+
+Integrate best of AI frameworks available today. So that we can make use of such technologies within your application ecosystem.
 
 ## How?
-Expose a micro-service written in python flask to expose one of the latest AI web frameworks called `langchain`
+
+A micro-service written in python flask to utilize one of the latest AI frameworks such as `langchain`.
 
 ## Setup
 
@@ -27,3 +29,8 @@ python app.py
 # alternatively
 FLASK_CONFIG=config.DevelopmentConfig FLASK_APP=app.py flask run
 ```
+
+## References
+
+* [langchain github page](https://github.com/hwchase17/langchain)
+* [flask github page](https://github.com/pallets/flask/)
